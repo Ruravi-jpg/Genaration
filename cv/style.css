@@ -1,0 +1,70 @@
+/* <!-- color botones */
+.contactboton{
+  color: #B30089;
+}
+
+.textobarra{
+  color: white;
+}
+
+.textobarra:hover {
+  color: #B30089;
+}
+
+/* /parte de arriba// */
+ /* .logo{   micara xd */
+  .logo{
+ height: auto;
+ width: 300px;
+ position: center;
+ margin-bottom: 1px;
+ display:block;
+ margin:auto; /* --esta propiedad juntocon la display centran imagenes */
+ 
+}
+.krizia{
+  text-align: center;
+  color: white;
+  font-family: 'Varela', sans-serif;
+ margin-top: 5px;
+
+}
+.krizia1{
+  text-align: center;
+  color: white;
+  font-family: 'Varela', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+.fondocara{
+  background: #000000;
+background: -moz-linear-gradient(top, #000000 0%, #242424 50%, #635D66 100%);
+background: -webkit-linear-gradient(top, #000000 0%, #242424 50%, #635D66 100%);
+background: linear-gradient(to bottom, #000000 0%, #242424 50%, #635D66 100%);
+}
+
+.descripcion{
+  margin-top: 0%;
+  background-color: #5C565E ;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-family: 'Varela', sans-serif;
+  color: white;
+  font-size: 20px ;
+}
+.linea1{
+background-color: #B30089;
+display:block;
+ margin: 10px;
+}
+
+.portafolio{
+  text-align: center;
+  font-family:  'Raleway', sans-serif;;
+  font-size: 30PX;
+  margin-top: 15PX;
+  margin-bottom: 2PX;
+  
+}
