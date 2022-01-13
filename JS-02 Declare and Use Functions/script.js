@@ -47,4 +47,65 @@ function greetWAge(){
     return "Hola " + name1 + " tu edad es "+ age1 +", hola " + name2 + " tu edad es "+ age2 +", hola " + name3 +" tu edad es " + age3;
 }
 
-console.log(greetWAge());
+//console.log(greetWAge());
+
+//Challenge Yourself 1
+
+function aprueba(){
+    var numero = parseInt (prompt('Ingresa un numero'));
+    
+    if ( numero <= 5 ){
+    
+      return true;
+    }else
+    return false;
+    
+    }
+    //console.log(aprueba());
+    
+    
+    //Challenge Yourself 2
+    function aprueba(){
+        var numero = parseInt (prompt('Ingresa un numero'));
+        
+        if ( numero > 8 ){
+        
+          return "Si pasas";
+        }else
+        return "No pasaste";
+         }
+        //console.log(aprueba());
+    
+        //Challenge Yourself3
+    
+        function aprueba(){
+            var numero =  parseInt (prompt('Ingresa un numero'));
+            
+            if ( numero <= 8 ){
+            
+              return "Si pasas";
+            }else if( numero == 11 ){
+            return "Excelente papu";
+             }
+        }
+           // console.log(aprueba());
+
+
+function grade(){
+    var message = "";
+    var score = parseInt(prompt("Ingresa la calificación"));
+
+    if(score > 8){
+        message = "Excellent";
+
+        if(score == 1){
+            message = "Perfect";
+        }
+    }else{
+        message = "Not so good :(";
+    }
+
+    return message;
+}
+
+console.log(grade());
