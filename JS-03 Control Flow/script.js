@@ -31,7 +31,7 @@ function getDayNumber(janFirstDayNumber, yearDayNumber){
 
     let day =  janFirstDayNumber + (yearDayNumber % 7) ;
     if(day > 6){
-        day = day-5;
+        day -= 5;
     }
     return day;
 }
